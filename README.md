@@ -6,16 +6,15 @@ and discriminator. The encoder takes in 28x28x1 images and compresses the input 
 transforms the output of the encoder, therefore reconstructing the original input images and simultaneously behaving as the generator. 
 These two building blocks are the autoencoder component of the adversarial autoencoder. 
 ## Discriminator
-The discriminator also takes in real and fake input and learns to discriminate between them. The architecture involves
+The discriminator takes in real and fake input and learns to discriminate between them. The architecture involves
 training and optimizing the discriminator to tell the difference between samples drawn from the prior distribution and samples
 drawn from the encoder distribution (real vs fake input).
 ## Fitting to a Guassian Distribution
-The functions below ensure that the encoder outputs to follow a known prior distribution (in this case, it's Guassian). Therefore, we get continuous data in the latent space; the code is evenly distributed over the prior distribution.
-Plot Latent Space Distribution
-Plot manifold of Adversarial Autoencoder
-
+The functions we coded ensure that the encoder outputs to follow a known prior distribution (in this case, it's Guassian). Therefore, we get continuous data in the latent space; the code is evenly distributed over the prior distribution. To demonstrate this, we produced a scatter plot of the latent space distribution. We
+also plotted the manifold of the adversarial autoencoder.
 
 Please refer to the technical report, above, for a more comprehensive look at how this project was developed!
+
 
 ![figure2a_2](https://github.com/nicolejoseph/Adversarial-Autoencoder/assets/55464125/454f3cd2-d350-44d7-a540-984299605615)
 
