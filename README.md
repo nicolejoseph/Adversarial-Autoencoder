@@ -17,5 +17,3 @@ Please refer to the technical report, above, for a more comprehensive look at ho
 
 
 ![figure2a_2](https://github.com/nicolejoseph/Adversarial-Autoencoder/assets/55464125/454f3cd2-d350-44d7-a540-984299605615)
-
-![latentspace_1](https://github.com/nicolejoseph/Adversarial-Autoencoder/assets/55464125/359dfcfd-037c-4a0e-9eb1-3082e208f9fb)
