@@ -10,7 +10,7 @@ The discriminator takes in real and fake input and learns to discriminate betwee
 training and optimizing the discriminator to tell the difference between samples drawn from the prior distribution and samples
 drawn from the encoder distribution (real vs fake input).
 ## Fitting to a Guassian Distribution
-The functions we coded ensure that the encoder outputs to follow a known prior distribution (in this case, it's Guassian). Therefore, we get continuous data in the latent space; the code is evenly distributed over the prior distribution. To demonstrate this, we produced a scatter plot of the latent space distribution. We
+The functions we coded ensure that the encoder outputs to follow a known prior distribution (in this case, it's Guassian). Therefore, we get continuous data in the latent space; the code is evenly distributed over the prior distribution. To demonstrate this, we produced a scatter plot of the latent space distribution, shown below. We
 also plotted the manifold of the adversarial autoencoder.
 
 Please refer to the technical report, above, for a more comprehensive look at how this project was developed!
