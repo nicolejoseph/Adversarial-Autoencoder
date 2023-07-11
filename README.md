@@ -1,5 +1,5 @@
 # Adversarial Autoencoder
-The goal of this project was to reproduce figures 2A and 2E from the paper “Adversarial Autoencoders” by Makhzani et al. Please refer to the [technical report](https://drive.google.com/file/d/1o2_ZZkRMbGfkUJhtw79ogLODh0BMazpc/view?usp=sharing), above, for a more comprehensive look at how this project was developed!
+The goal of this project was to reproduce figures 2A and 2E from the paper “Adversarial Autoencoders” by Makhzani et al. Please refer to the [technical report](https://drive.google.com/file/d/1o2_ZZkRMbGfkUJhtw79ogLODh0BMazpc/view?usp=sharing) for a more comprehensive look at how this project was developed!
 ## Encoder-Decoder Structure
 To implement the architecture, we created an adversarial autoencoder model using three basic model blocks: an encoder, decoder, 
 and discriminator. The encoder takes in 28x28x1 images and compresses the input into the 2-D Gaussian latent space. The decoder 
